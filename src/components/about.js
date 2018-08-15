@@ -1,6 +1,7 @@
 import React from 'react';
 import { Segment, Grid, Header, Button } from 'semantic-ui-react';
 import ResponsiveContainer from './responsive-container';
+import './styles/about.css';
 
 const About = () => (
     <ResponsiveContainer>
@@ -17,7 +18,7 @@ const About = () => (
                 </p>
                 <Grid.Row>
                     <Grid.Column textAlign='center'>
-                        <Button size='huge'>Apply Online</Button>
+                        <Button className="applyButton" size='huge'>Apply Online</Button>
                     </Grid.Column>
                 </Grid.Row>
             </Grid.Row>
