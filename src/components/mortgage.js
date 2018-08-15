@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Segment, Header, Divider, Button } from 'semantic-ui-react';
 import ResponsiveContainer from './responsive-container';
+import { FaPlusCircle } from 'react-icons/fa';
 import './styles/mortgages.css';
 
 const Mortgages = () => (
@@ -30,7 +31,7 @@ const Mortgages = () => (
                     </Grid.Column>
                 </Grid.Row>
             </Grid.Row>
-            <Divider as='h4' className='header' horizontal style={{ margin: '3em 0em', textTransform: 'uppercase'}}>AND</Divider>
+            <Divider as='h4' className='header' horizontal style={{ margin: '3em 0em', textTransform: 'uppercase', color: 'rgba(139, 204, 79)'}}><FaPlusCircle/></Divider>
             <Grid.Row>
                 <Header as='h3' style={{ fontSize: '2em', textDecoration: 'underline' }}>Commercial Mortgages</Header>
                 <p style={{ fontSize: '1.33em' }}>
