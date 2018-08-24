@@ -6,6 +6,7 @@ import About from './about';
 import Mortgages from './mortgage';
 import ContactUs from './contactus';
 import LoginForm from './login';
+import MortgageCalculatorPage from './mortgage-calculator';
 
 const Routes = () => {
     return (
@@ -15,6 +16,7 @@ const Routes = () => {
             <Route path='/about' component={About}/>
             <Route path='/mortgages' component={Mortgages}/>
             <Route path='/contactus' component={ContactUs}/>
+            <Route path='/mortgage-calculator' exact component={MortgageCalculatorPage}/>
         </Switch>
     )
 };

@@ -18,6 +18,7 @@ export default class DesktopMenubar extends Component {
                   <Menu.Item onClick={() => history.push('/about')}>About Us</Menu.Item>
                   <Menu.Item onClick={() => history.push('/mortgages')}>Mortgages</Menu.Item>
                   <Menu.Item onClick={() => history.push('/contactus')}>Contact Us</Menu.Item>
+                  <Menu.Item onClick={() => history.push('/mortgage-calculator')}>Mortgage Calculator</Menu.Item>
                 </Container>
               </Menu>
               <Hero />
