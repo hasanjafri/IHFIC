@@ -14,7 +14,7 @@ export default class DesktopMenubar extends Component {
             <Segment inverted textAlign='center' style={{ minHeight: 700, padding: '1em 0em', backgroundSize: "cover", backgroundColor: 'rgba(139, 204, 79, 0.3)', backgroundBlendMode: 'multiply' }} vertical>
               <Menu style={{backgroundColor: 'rgba(172, 180, 193, 0.3)'}}  size='large'>
                 <Container>
-                  <Menu.Item onClick={() => history.push('/')}>Home</Menu.Item>
+                  <Menu.Item onClick={() => history.push('/home')}>Home</Menu.Item>
                   <Menu.Item onClick={() => history.push('/about')}>About Us</Menu.Item>
                   <Menu.Item onClick={() => history.push('/mortgages')}>Mortgages</Menu.Item>
                   <Menu.Item onClick={() => history.push('/contactus')}>Contact Us</Menu.Item>
